@@ -1,0 +1,484 @@
+
+
+body 
+{
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+
+a
+{
+	text-decoration: none !important;
+	transition: 0.5s ease all !important;
+
+}
+a:hover
+{
+	color: #c6ff00 !important;
+}
+
+p,h1,h2,h3
+{
+	margin-bottom: 0px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+.top_hdr
+{
+	background-color:black;
+	padding: 10px;
+}
+.s_icons
+{
+	text-align: right;
+}
+.s_icons a
+{
+	color: white;
+	margin-right: 20px;
+}
+.addrs p
+{
+	float: left;
+	margin-right: 15px;
+	color: white;
+}
+.addrs p a
+{
+	color: white;
+	
+}
+
+.hdr
+{
+	background-color: rgba(115,139,1,1);
+	padding-top: 10px;
+}
+.hdr .container, .hdr .navbar
+{
+	padding: 0;
+}
+.navbar-brand img
+{
+	width: 160px;
+	height: 43px;
+}
+.menu
+{
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.menu>li
+{
+	float: left;
+}
+.menu>li>a
+{
+	color: white;
+	font-weight: bold;
+	padding: 10px 30px;
+	display: block;
+}
+
+.menu>li>a>i
+{
+	color: white;
+}
+.menu>li:hover .submenu
+{
+	opacity: 1;
+}
+.menu>li:hover .submenu:before
+{
+	height: 100%;
+	transition: 1.5s ease all;
+	
+}
+.submenu
+{
+	width: 212px;
+	list-style: none;
+	position: absolute;
+	background-color: #222;
+	padding-left: 0;
+	border-left: 2px solid #222;
+	opacity: 0;
+	z-index: 99;
+}
+.submenu:before
+{
+	content: "";
+	width: 3px;
+	height: 0px;
+	position: absolute;
+	top: 0;
+	left: -5px;
+	background-color: rgba(108,212,52,1);
+}
+.submenu li a
+{
+	color: white;
+	font-weight: bold;
+	padding: 10px 30px;
+	display: block;
+	transition: 0.2s ease all;
+}
+.submenu li a:hover
+{
+	color:rgba(108,212,52,1);
+}
+.abt img
+{
+	width: 100%;
+}
+.brd
+{
+	padding: 10px 50px;
+	background-color: rgba(108,212,52,1);
+}
+.act
+{
+	color: rgb(63, 74, 12) !important;
+}
+.brd p, .brd p a
+{
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+
+}
+.brd p a:hover
+{
+	color: rgb(63, 74, 12) !important;
+}
+.intro
+{
+
+}
+.intro h1
+{
+	font-size: 18px;
+	padding: 20px 0px;
+}
+.intro h3
+{
+	padding-bottom: 50px;
+	font-size: 35px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+h3 span
+{
+	color: rgba(108,212,52,1);
+}
+.image
+{
+	/*border:2px solid rgba(108,212,52,1);
+	width: 90%;
+	margin: auto;*/
+	position: relative;
+
+}
+.image
+{
+    border:2px solid rgba(108,212,52,1);
+}
+.s
+{
+	width: 100%;
+	transform: translate(-20px,-20px);
+}
+.fa-angle-double-left
+{
+    position: absolute;
+    left: -20px;
+    top: 35%;
+    cursor:pointer;
+    color:white;
+}
+.fa-angle-double-right
+{
+    position: absolute;
+    right: -20px;
+    top: 35%;
+    cursor:pointer;
+    color:white;
+}
+.content_sec .container
+{
+	border-left: 2px solid lightgray;
+}
+
+.container
+{
+	max-width: 80%;
+}
+.servs_sec
+{
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 50px 0px;
+	margin-top:100px; 
+}
+.servs_sec h3
+{
+	font-size: 45px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.num
+{
+	
+	margin-right: 15px;
+}
+.num h4
+{
+	font-size: 65px;
+	font-weight: bold;
+	color: white;
+	border-bottom: 2px solid #c6ff00;
+}
+
+.txt h5, .txt p
+{
+	color: white;
+}
+.faq_sec
+{
+	width: 90%;
+	margin:auto;
+}
+.d_img img
+{
+	width: 100%;
+}
+.card-header
+{
+	background-color: rgb(3, 27, 89);
+}
+.card-link
+{
+	color: white;
+}
+.card-link:hover
+{
+	color: white;
+}
+.card-header:hover
+{
+	background-color: rgb(79, 157, 37);
+}
+.testi_sec
+{
+	background-image: url(../img/bg2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.testi h3
+{
+
+	font-size: 45px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.t_text,.t_text1,.t_text2,.t_text3
+{
+	padding: 30px;
+	/*background-color: rgba(86, 173, 39, 0.8);*/
+	background-color:#785514;
+	width: 60%;
+	margin:auto;
+}
+.testi p
+{
+	color: white;
+}
+.testii p span
+{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 30px 0px;
+}
+.book
+{
+	background-color: rgba(1,1,1,1);
+	color: white;
+}
+.btn
+{
+	font-style: italic;
+	border-radius: 0;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-weight: bold;
+}
+.btn i
+{
+	margin-left: 15px;
+}
+.ct h5
+{
+	font-weight: bold;
+}
+.ct p a
+{
+	color: black;
+	font-weight: bold;
+}
+input
+{
+	margin-bottom: 10px;
+}
+form h3
+{
+	font-size: 45px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+footer
+{
+	background-color: rgba(108,212,52,1);
+}
+.about_sec
+{
+	width: 90%;
+	margin: 70px auto;
+	border:2px solid rgb(108, 212, 52);
+}
+.auth
+{
+	border-left: 2px solid rgb(108, 212, 52);
+}
+.auth h5
+{
+	font-weight: bold;
+}
+.txtt
+{
+	background-image: url(../img/bg12.jpg);
+	background-size: cover;
+	transform: translate(-30px,-30px);
+	
+	box-shadow: 2px 2px 4px 3px lightgrey;
+}
+.ctn
+{
+	background-image: url(../img/bg3.jpg);
+	background-size: cover;
+}
+.cntct_txt
+{
+	width: 90%;
+	margin: auto;
+	
+}
+.frm button
+{
+	background-color: black;
+	color: white;
+}
+.frm
+{
+	box-shadow: 2px 2px 4px 3px lightgrey;
+}
+.txtt h1
+{
+	font-weight: bold;
+}
+.auth img
+{
+	width:40%;
+	border-radius: 50%;
+}
+.frm h3
+{
+	font-size: 35px;
+}
+.contact p
+{
+	margin-top:15px;
+}
+@media (max-width:480px)
+{
+    .addrs p
+    {
+        float:none;
+        padding:10px;
+        text-align:center;
+    }
+    .s_icons
+    {
+        text-align:center;
+        padding:10px;
+    }
+    .menu li
+    {
+        float:none;
+        width:100%;
+    }
+    .submenu
+    {
+        position:relative;
+        opacity:1;
+    }
+    .submenu:before
+    {
+        height:100%;
+    }
+    .intro h3 {
+    padding-bottom: 25px;
+    font-size: 24px;
+    }
+    .s
+    {
+        transform:translate(0,0);
+    }
+    .accord h3, .accord p
+    {
+        text-align:center;
+    }
+    .testi p.py-3, .testi h3
+    {
+        text-align:center;
+    }
+    .book h3, .book p
+    {
+        text-align:center;
+    }
+    .ct p, .ct h5
+    {
+        text-align:center;
+    }
+}
+@media(max-width: 770px)
+{
+	.txtt
+	{
+		transform: translate(0px,0px);
+	}
+	.ct
+	{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.auth
+	{
+		border-left: none;
+		margin-top: 40px;
+		
+	}
+	.about_sec
+	{
+		margin:30px auto;
+	}
+
+}
